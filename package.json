@@ -1,6 +1,6 @@
 {
   "name": "soffritto",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An italian frontend boilerplate",
   "main": "index.js",
   "dependencies": {},
@@ -19,11 +19,23 @@
     "url": "git+https://github.com/wanbinkimoon/soffritto.git"
   },
   "author": {
-    "name" : "Nicola Bertelloni",
-    "email" : "nicola.bertelloni@gmail.com"
+    "name": "Nicola Bertelloni",
+    "email": "nicola.bertelloni@gmail.com"
   },
-  "keywords" : [
-    "boilerplate","frontend","sass","normalize","reset","small","lightweight","ux","ui","css","stylesheet","design","html"
+  "keywords": [
+    "boilerplate",
+    "frontend",
+    "sass",
+    "normalize",
+    "reset",
+    "small",
+    "lightweight",
+    "ux",
+    "ui",
+    "css",
+    "stylesheet",
+    "design",
+    "html"
   ],
   "license": "MIT",
   "bugs": {
