@@ -8,7 +8,11 @@ Soffritto is a basic sass normalizer with a config file to customize your starte
 ## Install
 Via `bower`
 ```
-bower --save install soffritto
+bower install --save soffritto
+```
+Via `npm`
+```
+npm install --save soffritto
 ```
 
 ## Usage
