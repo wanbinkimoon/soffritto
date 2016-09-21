@@ -18,8 +18,14 @@
     "type": "git",
     "url": "git+https://github.com/wanbinkimoon/soffritto.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name" : "Nicola Bertelloni",
+    "email" : "nicola.bertelloni@gmail.com"
+  },
+  "keywords" : [
+    "boilerplate","frontend","sass","normalize","reset","small","lightweight","ux","ui","css","stylesheet","design","html"
+  ],
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/wanbinkimoon/soffritto/issues"
   },

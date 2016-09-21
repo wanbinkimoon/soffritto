@@ -5,6 +5,9 @@
   "authors": [
     "Nicola Bertelloni <nicola.bertelloni@gmail.com>"
   ],
+  "keywords" : [
+    "boilerplate","frontend","sass","normalize","reset","small","lightweight","ux","ui","css","stylesheet","design","html"
+  ],
   "license": "MIT",
   "homepage": "https://github.com/wanbinkimoon/soffritto",
   "ignore": [
