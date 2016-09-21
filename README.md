@@ -1,6 +1,7 @@
 
 # Soffritto
 An italian frontend boilerplate
+![soffritto dependencies testing](https://david-dm.org/wanbinkimoon/soffritto.svg)
 
 ## Intro
 Soffritto is a basic sass normalizer with a config file to customize your starter base.
