@@ -9,7 +9,7 @@ Before compile the sass files, open the config.sass and set the vars as you desi
 
 ##What does it do?
 * Preserves useful defaults, unlike many CSS resets.
-* Normalizes styles for a wide range of elements.
+* Styles in a single config a wide range of elements.
 * Corrects bugs and common browser inconsistencies.
 * Improves flexibility with subtle variables.
 * Explains what code does using detailed comments.
@@ -23,4 +23,4 @@ Before compile the sass files, open the config.sass and set the vars as you desi
 * Safari 6+
 
 ## Acknowledgements
-Normalize.css is a project by [Nicola Bertelloni](mailto:nicola.bertelloni@gmail.com)
+**Soffritto** is a project by [Nicola Bertelloni](mailto:nicola.bertelloni@gmail.com)
