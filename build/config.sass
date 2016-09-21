@@ -1,17 +1,17 @@
 // BODY SETTINGS
 // Set the background color
-$body_bg: #efefef
+$body_bg_color: #efefef
 
 // set body border as a boolean and styke it
 $body_border: true
 $body_border_width: 15px
-$body_border_color: white
+$body_border_color: #ffffff
 
 // set the global font
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900'
 $body_font: 'Roboto', sans-serif
 
-
+// ________________________________________________________________________________________________________________
 // PARAGAPH SETTINGS
 // set the line heigt
 $p_lineheigt: 1.4
@@ -23,3 +23,62 @@ $p_font: inherit
 $p_m: true
 $p_mt: 1em
 $p_mb: 2em
+
+// ________________________________________________________________________________________________________________
+// LINK SETTINGS
+// set up colors for each state
+$a_color: black
+$a_hover_color: #457BF7
+$a_focus_color: #457BF7
+$a_active_color: #457BF7
+$a_visited_color: #457BF7
+
+// ________________________________________________________________________________________________________________
+// BUTTON SETTING
+// set up button padding
+$btn_ptb: 1em
+$btn_plr: 2em
+
+// set up the border as a boolean and set his proprierties
+$btn_border: false
+$btn_border_width: 2px
+$btn_border_color: #ababab
+// you can set this proprierty indipendently
+$btn_border_radius: 25px
+
+// set up outline on focus and active state
+$btn_focus_outline: false
+$btn_active_outline: false
+
+// set up button background color
+$btn_bg_color: lighten($btn_border_color, 15)
+
+// set up the hovevr, focus and active behave
+$btn_bg_hover: lighten($btn_bg_color, 5)
+$btn_bg_focus: lighten($btn_bg_color, 5)
+$btn_bg_active: darken($btn_bg_color, 5)
+
+// set button shadow chosing:
+// + false
+// + diffuse for a spread double shadow
+// + regular for a demifocused demi spread shadow
+// + concentrate for a focused shadow
+$btn_shadow: false
+$btn_shadow_color: rgba(#cecece, .75)
+
+// button typography
+$btn_font_color: #000
+$btn_font_size: 12px
+$btn_font_weight: 600
+// set typo tansformation choosing:
+// + uppercase
+// + capitalize
+// + lowercase
+// + false
+$btn_typo: false
+
+// ________________________________________________________________________________________________________________
+// HEADINGS SETTINGS
+$h_mt: .25em
+$h_mb: .75em
+$h_mlr: 0

@@ -1,0 +1,42 @@
+button
+  padding: $btn_ptb $btn_plr
+  background-color: $btn_bg_color
+  color: $btn_font_color
+
+  // button typhography
+  font-size: $btn_font_size
+  font-weight: $btn_font_weight
+  @if $btn_typo == uppercase
+    text-transform: uppercase
+  @else if $btn_typo == capitalize
+    text-transform: capitalize
+  @else if $btn_typo == lowercase
+    text-transform: lowercase
+
+  // set the border
+  border-radius: $btn_border_radius
+  @if $btn_border == true
+    border: $btn_border_width solid $btn_border_color
+  @else
+    border: none
+
+  // set the shadow of the button
+  @if $btn_shadow == diffuse
+    box-shadow: 0 0.5em 2em -1em $btn_shadow_color, 0 1.5em 3em -1em $btn_shadow_color
+  @else if $btn_shadow == regular
+    box-shadow: 0 0.5em 1.5em -0.75em $btn_shadow_color, 0 1em 1.5em -0.5em $btn_shadow_color
+  @else if $btn_shadow == concentrate
+    box-shadow: 0 0.125em 0.5em -0.25em $btn_shadow_color, 0 0.5em 0.75em -0.25em $btn_shadow_color
+
+button:hover
+  background-color: $btn_bg_hover
+
+button:focus
+  background-color: $btn_bg_focus
+  @if $btn_focus_outline == false
+    outline: none
+
+button:active
+  background-color: $btn_bg_active
+  @if $btn_active_outline == false
+    outline: none
