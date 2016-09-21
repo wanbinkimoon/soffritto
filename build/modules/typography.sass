@@ -1,0 +1,68 @@
+pre
+  font-family: monospace, monospace
+  font-family: $pre_font
+  font-size: 1em
+
+abbr[title]
+  // remove the bottom border in Firefox 39-
+  border-bottom: none
+  // add the correct text decoration in Chrome, Edge, IE, Opera, and Safari
+  text-decoration: underline
+  text-decoration: underline dotted
+
+b,
+strong
+  // prevent the duplicate application of `bolder` by the next rule in Safari 6
+  font-weight: inherit
+
+  // Add the correct font weight in Chrome, Edge, and Safari
+  @if $b_font_weight == false
+    font-weight: bolder
+  @else
+    font-weight: $b_font_weight
+
+
+code,
+kbd,
+samp
+  @if $code_font == false
+    font-family: monospace, monospace
+  @else
+    font-family: $code_font
+  @if $code_font_size == false
+    font-size: 1em
+  @else
+    font-size: $code_font_size
+
+
+dfn
+  // set the right style in Android 4,3-
+  font-style: italic
+
+mark
+  @if $mark_bg_color == false
+    background-color: #ff0
+  @else
+    background-color: $mark_bg_color
+  @if $mark_color == false
+    color: #000
+  @else
+    color: $mark_color
+
+small
+  // Add the correct font size in all browsers.
+  font-size: 80%
+
+// Prevent "sub" and "sup" elements from affecting the line height in all browsers.
+sub,
+sup
+  font-size: 75%
+  line-height: 0
+  position: relative
+  vertical-align: baseline
+
+sub
+  bottom: -0.25em
+
+sup
+  top: -0.5em

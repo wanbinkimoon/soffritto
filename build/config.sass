@@ -1,3 +1,15 @@
+// ________________________________________________________________________________________________________________
+// DOCUMENT SETTINGS
+// set the global font
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900'
+$doc_font: 'Roboto', sans-serif
+$doc_lineheight: 1.5
+
+// if not false set up a custom background and font color for the global selection tool
+$select_bg_color: rgba(#457BF7, .85)
+$select_color: #fff
+
+// ________________________________________________________________________________________________________________
 // BODY SETTINGS
 // Set the background color
 $body_bg_color: #efefef
@@ -7,9 +19,6 @@ $body_border: true
 $body_border_width: 15px
 $body_border_color: #ffffff
 
-// set the global font
-@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900'
-$body_font: 'Roboto', sans-serif
 
 // ________________________________________________________________________________________________________________
 // PARAGAPH SETTINGS
@@ -23,6 +32,23 @@ $p_font: inherit
 $p_m: true
 $p_mt: 1em
 $p_mb: 2em
+
+// ________________________________________________________________________________________________________________
+// TYPOGRAPHY SETTINGS
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono'
+$pre_font: 'Roboto Mono', monospace
+
+// if not false define a different font weight than 'bolder'
+$b_font_weight: false
+
+
+// if not false set up code tag formatting
+$code_font: false
+$code_font_size: false
+
+// if not set as false set a custom background and font color fot mark tag
+$mark_color: false
+$mark_bg_color: false
 
 // ________________________________________________________________________________________________________________
 // LINK SETTINGS
@@ -82,3 +108,13 @@ $btn_typo: false
 $h_mt: .25em
 $h_mb: .75em
 $h_mlr: 0
+
+
+// ________________________________________________________________________________________________________________
+// FORM ELEMENTS SETTINGS
+
+// FIELDSET
+// if set to true enable custom fieldset border
+$fieldset_border: false
+$fieldset_border_width: 2px
+$fieldset_border_color: #ececec

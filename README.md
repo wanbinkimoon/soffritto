@@ -5,7 +5,33 @@ An italian frontend boilerplate
 Soffritto is a basic sass normalizer with a config file to customize your starter base.
 
 ## Usage
-Before compile the sass files, open the config.sass and set the vars as you desire.
+##Initialize
+First of all `cd` into the folder and run   
+```
+npm install
+```
+Set your custom variables in `build/modules/config.sass`
+
+### Compiling sass
+Compile your package with standard human readable `css` running
+```
+npm run sass
+```
+Compile as minified `css`
+```
+npm run sass:min
+```
+Watch and compile on the fly
+```
+npm run sass:watch
+```
+
+### Test your variables
+**Soffritto** can run a local HTTP server using `browser-sync`, to run it just
+```
+npm run server
+```
+once the server is running you can choose what display editing the code in `index.html`
 
 ##What does it do?
 * Preserves useful defaults, unlike many CSS resets.

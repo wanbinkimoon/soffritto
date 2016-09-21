@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "An italian frontend boilerplate",
   "main": "index.js",
-  "dependencies": {
-    "http-server": "^0.9.0",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.16.0",
     "sass": "^0.5.0"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass soffritto.sass soffritto.css",
+    "sass:min": "sass --style compressed soffritto.sass soffritto.min.css",
+    "sass:watch": "sass --watch soffritto.sass soffritto.css",
+    "server": "browser-sync start --config bs-config.js"
   },
   "repository": {
     "type": "git",

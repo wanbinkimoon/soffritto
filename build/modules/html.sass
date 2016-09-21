@@ -1,0 +1,20 @@
+html
+  color: blue
+  font-family: sans-serif
+  font-family: $doc_font
+  line-height: $doc_lineheight
+
+  // Prevent adjustments of font size after orientation changes in IE and iOS.
+  -ms-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%
+
+::selection
+  @if $select_bg_color == false
+    background-color: inherit
+  @else
+    background-color: $select_bg_color
+
+  @if $select_color == false
+    color: #000
+  @else
+    color: $select_color

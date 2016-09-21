@@ -21,10 +21,7 @@ module.exports = {
     },
     "files": ["index.html", "style.css"],
     "watchOptions": {},
-    "server": {
-        baseDir: ".",
-        directory: true
-    },
+    "server": {},
     "proxy": false,
     "port": 3000,
     "middleware": false,
