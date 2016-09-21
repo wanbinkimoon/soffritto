@@ -1,13 +1,18 @@
 
 # Soffritto
-[![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)  
 An italian frontend boilerplate
 
 ## Intro
 Soffritto is a basic sass normalizer with a config file to customize your starter base.
 
+## Install
+Via `bower`
+```
+bower --save install soffritto
+```
+
 ## Usage
-##Initialize
+### Initialize  
 First of all `cd` into the folder and run   
 ```
 npm install

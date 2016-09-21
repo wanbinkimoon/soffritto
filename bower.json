@@ -1,0 +1,17 @@
+{
+  "name": "soffritto",
+  "description": "An italian frontend boilerplate",
+  "main": "soffritto.css",
+  "authors": [
+    "Nicola Bertelloni <nicola.bertelloni@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/wanbinkimoon/soffritto",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
